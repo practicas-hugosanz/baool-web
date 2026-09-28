@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Baool Burgers · Hamburguesería de autor en Valencia</title>
+  <meta name="description" content="Baool Burgers y Baool Smash: hamburguesas de autor en Benicalap, Valencia. Carne madurada, cheddar en dos texturas, salsas caseras. Casa de la TNT y la Marquesita.">
+  <meta name="theme-color" content="#14211c">
+  <link rel="icon" href="assets/img/logo.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Inter+Tight:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lenis@1.3.4/dist/lenis.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="is-loading">
+
+  <div class="grain" aria-hidden="true"></div>
+  <div class="menu-preview" aria-hidden="true"><img alt=""></div>
+
+  <!-- NAV -->
+  <header class="nav" data-nav>
+    <div class="nav__inner">
+      <a href="#inicio" class="nav__logo" aria-label="Baool, inicio">baool</a>
+      <nav class="nav__links" aria-label="Principal">
+        <a href="#historia">Historia</a>
+        <a href="#burgers">Burgers</a>
+        <a href="#carta">Carta</a>
+        <a href="#local">El local</a>
+        <a href="#locales">Dónde</a>
+      </nav>
+      <div class="nav__right">
+        <span class="status" data-status><i></i><span>Comprobando…</span></span>
+        <a class="btn btn--salmon btn--sm" href="https://baoolburgers.myrestoo.net/es/reservar" target="_blank" rel="noopener" data-magnetic>Reservar</a>
+        <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false" data-menu-toggle><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" data-mobile-menu aria-hidden="true">
+    <nav>
+      <a href="#historia">Historia</a>
+      <a href="#burgers">Burgers</a>
+      <a href="#carta">Carta</a>
+      <a href="#local">El local</a>
+      <a href="#locales">Dónde</a>
+    </nav>
+    <div class="mobile-menu__foot">
+      <a href="tel:+34961181588">961 181 588</a>
+      <a href="https://www.instagram.com/baool.burgers/" target="_blank" rel="noopener">@baool.burgers</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- ============ HERO: la pared del local ============ -->
+    <section class="hero" id="inicio">
+      <div class="hero__wall" aria-hidden="true"></div>
+      <div class="hero__warm" aria-hidden="true"></div>
+      <div class="hero__dark" aria-hidden="true"></div>
+
+      <div class="hero__stage">
+        <figure class="polaroid polaroid--l"><div class="polaroid__in">
+          <img src="assets/img/marquesita.webp" alt="Hamburguesa Marquesita con galleta Lotus y lluvia de parmesano">
+          <figcaption>Marquesita · la más viral</figcaption>
+        </div></figure>
+        <figure class="polaroid polaroid--r"><div class="polaroid__in">
+          <img src="assets/img/emmy.webp" alt="Hamburguesa Emmy con cheddar fundido, pepinillo y sésamo">
+          <figcaption>Emmy · cheddar en dos texturas</figcaption>
+        </div></figure>
+
+        <div class="sign-wrap">
+          <h1 class="sign" aria-label="baool">
+            <span data-l="b">b</span><span data-l="a">a</span><span data-l="o">o</span><span data-l="o">o</span><span data-l="l">l</span>
+          </h1>
+          <svg class="fairy" viewBox="0 0 1200 120" aria-hidden="true">
+            <path class="fairy__wire" d="M0 10 Q150 110 300 20 Q450 110 600 20 Q750 110 900 20 Q1050 110 1200 10" />
+            <g class="fairy__bulbs"></g>
+          </svg>
+        </div>
+      </div>
+
+      <div class="hero__bottom">
+        <p class="hero__kicker mono"><span class="line-mask"><span>Hamburguesería de autor</span></span><span class="line-mask"><span>Benicalap · Valencia</span></span></p>
+        <p class="hero__title" data-hero-title>La hamburguesa no es comida rápida. <em>Es arte comestible.</em></p>
+        <div class="hero__cta">
+          <a href="#carta" class="link-arrow">Ver la carta <span>↓</span></a>
+        </div>
+      </div>
+
+      <div class="loader" aria-hidden="true">
+        <span class="loader__count mono"><b data-count>00</b>%</span>
+        <span class="loader__hint mono">Encendiendo las luces…</span>
+      </div>
+    </section>
+
+    <!-- ============ HISTORIA ============ -->
+    <section class="story" id="historia">
+      <div class="container">
+        <p class="eyebrow mono"><span>(01)</span> Nuestra historia</p>
+        <p class="story__big" data-scrub-text>
+          Dos chavales de veintidós años, una cocina con oficio de estrella Michelin y una obsesión:
+          que cada burger tenga <span class="pill"><img src="assets/img/corte.webp" alt=""></span> nombre propio,
+          carácter y cheddar en dos texturas. Así nació <em>Baool</em>, en Benicalap, entre
+          <span class="pill"><img src="assets/img/local-neon.webp" alt=""></span> azulejo blanco, mesas rosas y luz de bombilla.
+        </p>
+
+        <div class="story__grid">
+          <div class="story__founders" data-reveal>
+            <p><strong>Luis Fernando Suárez</strong> manda en la cocina. <strong>María Eugenia Bravo</strong>, en la sala. Entre los dos han convertido una hamburguesería de barrio en parada obligatoria para los burgerlovers de Valencia.</p>
+            <p>Base española, guiños latinoamericanos —tajín, guacamole, pico de gallo— y entre cinco y seis elaboraciones distintas detrás de cada burger. Sin atajos.</p>
+          </div>
+          <figure class="story__photo" data-reveal-img>
+            <img src="assets/img/corte.webp" alt="Corte de una hamburguesa de carne madurada al punto">
+            <figcaption class="mono">200 g de carne madurada · al punto</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ REVEAL ============ -->
+    <section class="reveal" aria-label="El ambiente de Baool">
+      <div class="reveal__pin">
+        <div class="reveal__media">
+          <img src="assets/img/nachos-neon.webp" alt="Nachos caseros con el cartel luminoso de Baool de fondo">
+        </div>
+        <p class="reveal__text"><span>Cuando se encienden</span><span>las letras,</span><span><em>empieza la noche.</em></span></p>
+      </div>
+    </section>
+
+    <!-- ============ BURGERS (horizontal) ============ -->
+    <section class="burgers" id="burgers">
+      <div class="burgers__pin">
+        <header class="burgers__head container">
+          <div>
+            <p class="eyebrow mono"><span>(02)</span> Las de la casa</p>
+            <h2 class="h2" data-split>Nombres <em>propios.</em></h2>
+          </div>
+          <p class="burgers__intro">Cada burger tiene nombre y carácter. Pan artesano, carne madurada y una salsa casera distinta para cada una.</p>
+        </header>
+
+        <div class="hs" data-hs>
+          <div class="hs__track" data-hs-track></div>
+        </div>
+        <div class="hs__progress container" aria-hidden="true"><span data-hs-progress></span></div>
+      </div>
+    </section>
+
+    <!-- ============ TNT ============ -->
+    <section class="tnt" id="tnt">
+      <canvas class="tnt__canvas" data-tnt-canvas aria-hidden="true"></canvas>
+      <div class="container tnt__grid">
+        <figure class="tnt__photo" data-reveal-img>
+          <img src="assets/img/tnt-champions.webp" alt="Hamburguesa TNT junto a la placa de The Champions Burger: clasificado final España, Valencia">
+        </figure>
+        <div class="tnt__copy">
+          <p class="eyebrow mono"><span>(03)</span> The Champions Burger · Mestalla</p>
+          <h2 class="tnt__word" data-tnt-word aria-label="TNT"><span>T</span><span>N</span><span>T</span></h2>
+          <p class="tnt__lead">La elegida por Valencia para ir a la final de España.</p>
+          <p class="tnt__desc">Pan New York Roll, 200 g de carne madurada, mermelada de bacón, crema de cheddar madurado y… <strong>Peta Zetas</strong>. Sí: explota en la boca.</p>
+          <div class="tnt__row">
+            <span class="price mono">14,00 €</span>
+            <button class="btn btn--red" data-tnt-boom data-magnetic>Hazla explotar ✺</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MARQUESITA / MURAL ============ -->
+    <section class="mural" id="marquesita">
+      <div class="container mural__grid">
+        <div class="mural__copy">
+          <p class="eyebrow mono"><span>(04)</span> Fenómeno viral</p>
+          <h2 class="h2" data-split>Tiene hasta <em>mural propio.</em></h2>
+          <p>La <strong>Marquesita</strong> se hizo viral y se quedó a vivir en la pared: 200 g de carne madurada, mermelada de tomate, bacón, cheddar en dos texturas, nuestra salsa Lotus y lluvia de parmesano. Dulce, salada y muy adictiva.</p>
+          <a href="#carta" class="link-arrow">Pídela en carta <span>→</span></a>
+        </div>
+        <div class="mural__media">
+          <figure class="mural__wall">
+            <img src="assets/img/mural.webp" alt="Mural pintado en el local: una chica mordiendo la hamburguesa Marquesita" data-parallax>
+          </figure>
+          <figure class="mural__card">
+            <img src="assets/img/marquesita.webp" alt="Hamburguesa Marquesita">
+          </figure>
+          <svg class="badge" viewBox="0 0 200 200" aria-hidden="true" data-spin>
+            <defs><path id="badge-circle" d="M100,100 m-76,0 a76,76 0 1,1 152,0 a76,76 0 1,1 -152,0"/></defs>
+            <circle cx="100" cy="100" r="98" class="badge__bg"/>
+            <text class="badge__text"><textPath href="#badge-circle">LA MÁS VIRAL · SALSA LOTUS · 13,50 € · </textPath></text>
+            <text x="100" y="118" text-anchor="middle" class="badge__star">✺</text>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CARTA ============ -->
+    <section class="menu" id="carta">
+      <div class="container">
+        <div class="menu__head">
+          <div>
+            <p class="eyebrow mono"><span>(05)</span> La carta</p>
+            <h2 class="h2" data-split>Para comer <em>con las manos.</em></h2>
+          </div>
+          <div class="menu__locale" role="tablist" aria-label="Elige local">
+            <button role="tab" class="is-active" data-locale="costera" aria-selected="true">
+              <b>Baool Burgers</b><span class="mono">C/ Costera 2 · 200 g madurada</span>
+            </button>
+            <button role="tab" data-locale="smash" aria-selected="false">
+              <b>Baool Smash</b><span class="mono">C/ Conchita Piquer 4 · doble smash</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="menu__tabs" role="tablist" aria-label="Categorías">
+          <button role="tab" class="is-active" data-cat="burgers" aria-selected="true">Burgers</button>
+          <button role="tab" data-cat="entrantes" aria-selected="false">Entrantes</button>
+          <button role="tab" data-cat="postres" aria-selected="false">Postres</button>
+          <button role="tab" data-cat="bebidas" aria-selected="false">Bebidas</button>
+          <span class="menu__ink" aria-hidden="true"></span>
+        </div>
+
+        <ul class="menu__list" data-menu-list></ul>
+        <p class="menu__note mono" data-menu-note></p>
+      </div>
+    </section>
+
+    <!-- ============ EL LOCAL ============ -->
+    <section class="local" id="local">
+      <div class="container local__head">
+        <div>
+          <p class="eyebrow mono"><span>(06)</span> El local</p>
+          <h2 class="h2" data-split>Mesas rosas, cuadros vichy <em>y luz de bombilla.</em></h2>
+        </div>
+        <p class="local__intro">Azulejo blanco, sofás de terciopelo verde, un mono de peluche que vigila la sala y nuestro nombre encendido en la pared. Un sitio para compartir, celebrar o simplemente venir a por una burger.</p>
+      </div>
+      <div class="gallery">
+        <div class="gallery__col" data-speed="-60">
+          <figure><img src="assets/img/local-neon.webp" alt="Sala de Baool con azulejo blanco, letras iluminadas, sofá verde y mono de peluche"><figcaption class="mono">El mono también cena aquí</figcaption></figure>
+          <figure><img src="assets/img/cerveza.webp" alt="Copa de cerveza bien fría"><figcaption class="mono">Turia o Estrella, bien fría</figcaption></figure>
+          <figure><img src="assets/img/pullpork.webp" alt="Pull pork fries con cebolla morada encurtida" loading="lazy"><figcaption class="mono">Pull pork fries</figcaption></figure>
+        </div>
+        <div class="gallery__col" data-speed="80">
+          <figure><img src="assets/img/mesa-vichy.webp" alt="Dos hamburguesas con patatas en bandejas sobre mantel de cuadros rojos"><figcaption class="mono">Mantel vichy, bandeja y a compartir</figcaption></figure>
+          <figure><img src="assets/img/logo-neon.webp" alt="Letras de Baool retroiluminadas sobre azulejo"><figcaption class="mono">Nuestro nombre, encendido</figcaption></figure>
+          <figure><img src="assets/img/bao-ternera.webp" alt="Bao de ternera a baja temperatura"><figcaption class="mono">Bao de ternera</figcaption></figure>
+        </div>
+        <div class="gallery__col" data-speed="-30">
+          <figure><img src="assets/img/mesa-rosa.webp" alt="Hamburguesa y nachos sobre la mesa rosa del local"><figcaption class="mono">Las mesas rosas</figcaption></figure>
+          <figure><img src="assets/img/patatas-azules.webp" alt="Patatas azules con mix de quesos vistas desde arriba"><figcaption class="mono">Patatas azules</figcaption></figure>
+          <figure><img src="assets/img/cafe.webp" alt="Café latte con arte en la espuma"><figcaption class="mono">Y un café para cerrar</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RESEÑAS ============ -->
+    <section class="reviews" aria-labelledby="reviews-title">
+      <div class="container">
+        <p class="eyebrow mono"><span>(07)</span> Lo que se dice en la mesa</p>
+        <h2 class="h2" id="reviews-title" data-split>“Salimos <em>rodando.</em>”</h2>
+      </div>
+      <div class="reviews__rows">
+        <div class="reviews__row"><div class="reviews__track" data-marquee="1"></div></div>
+        <div class="reviews__row"><div class="reviews__track" data-marquee="-1"></div></div>
+      </div>
+    </section>
+
+    <!-- ============ LOCALES ============ -->
+    <section class="places" id="locales">
+      <div class="container">
+        <p class="eyebrow mono"><span>(08)</span> Dos casas en Benicalap</p>
+        <h2 class="h2" data-split>Ven a <em>vernos.</em></h2>
+
+        <div class="places__grid">
+          <article class="place" data-reveal>
+            <span class="place__tag mono">Gourmet · 200 g madurada</span>
+            <h3>Baool Burgers</h3>
+            <p class="place__addr">C/ de la Costera, 2<br>46015 Valencia</p>
+            <p class="place__desc">Nuestras burgers gourmet de carnes gorditas y maduradas. La casa madre, con terraza.</p>
+            <div class="place__links">
+              <a class="link-arrow" href="https://www.google.com/maps/search/?api=1&amp;query=Baool+Burgers+Calle+de+la+Costera+2+Valencia" target="_blank" rel="noopener">Cómo llegar <span>↗</span></a>
+              <a class="link-arrow" href="https://www.instagram.com/baool.burgers/" target="_blank" rel="noopener">@baool.burgers <span>↗</span></a>
+            </div>
+          </article>
+          <article class="place place--smash" data-reveal>
+            <span class="place__tag mono">Smash · doble de 100 g</span>
+            <h3>Baool Smash</h3>
+            <p class="place__addr">C/ Conchita Piquer, 4<br>46015 Valencia</p>
+            <p class="place__desc">Las mismas burgers en versión smash: doble carne aplastada a la plancha y costra crujiente.</p>
+            <div class="place__links">
+              <a class="link-arrow" href="https://www.google.com/maps/search/?api=1&amp;query=Baool+Smash+Calle+Conchita+Piquer+4+Valencia" target="_blank" rel="noopener">Cómo llegar <span>↗</span></a>
+              <a class="link-arrow" href="https://www.instagram.com/baool.smashh/" target="_blank" rel="noopener">@baool.smashh <span>↗</span></a>
+            </div>
+          </article>
+
+          <aside class="hours" data-reveal>
+            <h3 class="mono">Horario</h3>
+            <ul data-hours>
+              <li data-days="1,2,3"><span>Lunes a miércoles</span><span>20:00 – 23:30</span></li>
+              <li data-days="4,5,6,0"><span>Jueves a domingo</span><span>13:00 – 16:00<br>20:00 – 23:30</span></li>
+            </ul>
+            <p class="status status--block" data-status><i></i><span>Comprobando…</span></p>
+            <a class="hours__phone" href="tel:+34961181588">961 181 588</a>
+            <a class="hours__mail mono" href="mailto:info@restaurantebaool.es">info@restaurantebaool.es</a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RESERVA ============ -->
+    <section class="book" id="reservar">
+      <div class="book__card" data-book>
+        <p class="eyebrow mono">Reservas online</p>
+        <h2 class="book__title" data-split>¿Mesa para <em>esta noche?</em></h2>
+        <p>Reserva en dos clics o llámanos. Te guardamos sitio (y una Marquesita).</p>
+        <div class="book__actions">
+          <a class="btn btn--salmon btn--lg" href="https://baoolburgers.myrestoo.net/es/reservar" target="_blank" rel="noopener" data-magnetic>Reservar mesa</a>
+          <a class="btn btn--ghost btn--lg" href="tel:+34961181588" data-magnetic>961 181 588</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <p class="footer__claim">Hecho en Valencia con carne madurada y cheddar en dos texturas.</p>
+      <div>
+        <h4 class="mono">Menú</h4>
+        <a href="#historia">Historia</a><a href="#burgers">Burgers</a><a href="#carta">Carta</a><a href="#local">El local</a>
+      </div>
+      <div>
+        <h4 class="mono">Contacto</h4>
+        <a href="tel:+34961181588">961 181 588</a>
+        <a href="mailto:info@restaurantebaool.es">info@restaurantebaool.es</a>
+        <a href="https://www.instagram.com/baool.burgers/" target="_blank" rel="noopener">Instagram Burgers</a>
+        <a href="https://www.instagram.com/baool.smashh/" target="_blank" rel="noopener">Instagram Smash</a>
+      </div>
+      <div>
+        <h4 class="mono">Legal</h4>
+        <a href="https://restaurantebaool.es/politica-de-privacidad/">Privacidad</a>
+        <a href="https://restaurantebaool.es/condiciones-de-uso/">Condiciones de uso</a>
+        <a href="https://restaurantebaool.es/ley-de-cookies/">Cookies</a>
+        <a href="https://restaurantebaool.es/accesibilidad/">Accesibilidad</a>
+      </div>
+    </div>
+    <div class="footer__word" aria-hidden="true" data-footer-word><span>b</span><span>a</span><span>o</span><span>o</span><span>l</span></div>
+    <div class="container footer__legal mono">
+      <span>© <span data-year>2026</span> Baool Burgers · Benicalap, Valencia</span>
+      <a href="#inicio">Volver arriba ↑</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.3.4/dist/lenis.min.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
